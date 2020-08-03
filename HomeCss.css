@@ -1,0 +1,31 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+}
+.container button{
+    width: 194px;
+}
+.question-container{
+    border: 1px black solid;
+    padding: 20px;
+    margin: 20px 0;
+}
+.question-container input{
+   
+    margin: 20px 0;
+}
+.number-question{
+    text-align: center;
+    padding-top: 20px;
+}
+.addQues{
+    display: grid;
+    grid-template-columns: 1 4;
+}
